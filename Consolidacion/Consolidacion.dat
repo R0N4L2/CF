@@ -1,0 +1,23 @@
+/*********************************************
+ * OPL 12.7.1.0 Data
+ * Author: jwood
+ * Creation Date: Mar 13, 2018 at 8:46:08 AM
+ *********************************************/
+
+SheetConnection sheet("Consolizasion.xlsx");
+
+fulgones from SheetRead(sheet,"fulgones!A2:A77");
+esFrio from SheetRead(sheet,"fulgones!B2:B77");
+capacidad from SheetRead(sheet,"fulgones!C2:C77");
+
+destinos from SheetRead(sheet,"destinos!A2:A70");
+codigoDestino from SheetRead(sheet,"destinos!B2:B70");
+pallets from SheetRead(sheet,"destinos!C2:C70");
+palletsFrios from SheetRead(sheet,"destinos!D2:D70");
+subZona from SheetRead(sheet,"destinos!F2:F70");
+costoDestino from SheetRead(sheet,"destinos!G2:G70");
+costoActual from SheetRead(sheet,"destinos!G2:G70");
+
+destinosSolos from SheetRead(sheet,"destinosSolos!A2:A5");
+
+fulgonesUtilizados from SheetRead(sheet,"resultados!B2:B1000");

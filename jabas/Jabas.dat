@@ -1,0 +1,24 @@
+/*********************************************
+ * OPL 12.8.0.0 Data
+ * Author: ronal
+ * Creation Date: 3-10-2019 at 10:32:04
+ *********************************************/
+
+ 
+SheetConnection sheet("Jabas.xlsx"); 
+//Datos
+palletsDisponibles from SheetRead(sheet, "parametros!A2");
+palletVolumen from SheetRead(sheet, "parametros!B2");
+palletLargo from SheetRead(sheet, "parametros!C2");
+palletAncho from SheetRead(sheet, "parametros!D2");
+palletALto from SheetRead(sheet, "parametros!C2");
+palletPeso from SheetRead(sheet, "parametros!F2");
+palletCosto from SheetRead(sheet, "parametros!G2");
+PenalidadNoEnviar from SheetRead(sheet, "parametros!H2");
+M from SheetRead(sheet, "parametros!I2");
+jabaInformacion from SheetRead(sheet, "Jabas!A2:D90");
+
+
+//resulados
+//jabaPalletTypeNumberQty to SheetWrite(sheet,"JabaAPallet");
+//PalletInfo to SheetWrite(sheet,"palletInformacion");

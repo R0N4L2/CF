@@ -1,0 +1,14 @@
+/*********************************************
+ * OPL 12.9.0.0 Data
+ * Author: rcastillo
+ * Creation Date: Sep 26, 2019 at 12:38:40 PM
+ *********************************************/
+
+SheetConnection sheet("Bins.xlsx"); 
+binTypes from SheetRead(sheet, "binTypes!A2:A3");
+binsDisponibles from SheetRead(sheet, "BinsDisponibles!B2:B3");
+binVolume from SheetRead(sheet, "binVolume!B2:B3");
+binCost from SheetRead(sheet, "binCost!B2:B3");
+missedShipmentPenalty from SheetRead(sheet, "missedShipmentPenalty!B2:B3");
+bodegaPenalty from SheetRead(sheet, "bodegaPenalty!A2:B5");
+productInformation from SheetRead(sheet, "productInformation!A2:E143");

@@ -1,0 +1,10 @@
+// Generated on Wed Jan 29 14:59:20 2020
+// Furgones
+parametros = {<"MAX_LOCALES" 3> <"MAX_FURGONES" 3> <"COSTO_DISTANCIA" 0>
+         <"MAX_DIVISION" 1>};
+infoLocales = {<345 -1.022668 -79.464944 390 468 "l">};
+infoFurgones = {<"F_21_0" "F" 21> <"S_18_0" "S" 18>};
+infoPedido = {<345 9 10 19>};
+localFurgon = {<345 "F_21_0"> <345 "S_18_0">};
+localesIncompatibles = {};
+infoDistancias = {};
